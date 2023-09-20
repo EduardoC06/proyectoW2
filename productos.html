@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="EstiloP\estilosSub.css">
+    <link rel="icon" href="imagenes/log.png" type="image/x-icon">
+    <title>Productos</title>
+</head>
+
+<body>
+    <div class="menuFi">
+        <div class="logo">
+            <a href="#">CAP Brewery</a>
+        </div>
+
+        <nav class="enlaces">
+            <a href="Inndex.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="productos.html">Productos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contactenos.html">Contactenos</a>
+        </nav>
+    </div>
+    <h1 class="tituloP">Nuestros productos</h1>
+    <header class="contenedor">
+        <div class="productos">
+            <div class="imagenP">
+                <img src="imagenes/melkim.jpg" alt="Cerverza artezanal melkim" >
+            </div>
+            <div class="infoProd">
+                <h2>Cerveza Melkim</h2>
+                <p class="precio">S/.80</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div class="productos">
+            <div class="imagenP">
+                <img src="imagenes/barbarin.jpg" alt="Cerverza artezanal melkim" >
+            </div>
+            <div class="infoProd">
+                <h2>Cerveza Barbarin</h2>
+                <p class="precio">S/.80</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div class="productos">
+            <div class="imagenP">
+                <img src="imagenes/maddock.jpg" alt="Cerverza artezanal melkim" >
+            </div>
+            <div class="infoProd">
+                <h2>Cerveza Maddock</h2>
+                <p class="precio">S/.80</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div class="productos">
+            <div class="imagenP">
+                <img src="imagenes/magdalena.jpeg" alt="Cerverza artezanal melkim" >
+            </div>
+            <div class="infoProd">
+                <h2>Cerveza Magdalena</h2>
+                <p class="precio">S/.80</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div class="productos">
+            <div class="imagenP">
+                <img src="imagenes/Nmundo.jpg" alt="Cerverza artezanal melkim" >
+            </div>
+            <div class="infoProd">
+                <h2>Cerveza Nuevo mundo</h2>
+                <p class="precio">S/.80</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <div class="productos">
+            <div class="imagenP">
+                <img src="imagenes/cumbres.jpg" alt="Cerverza artezanal melkim" >
+            </div>
+            <div class="infoProd">
+                <h2>Cerveza Cumbres</h2>
+                <p class="precio">S/.80</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </header>
+
+    <style>
+        /*Titulo*/
+        .tituloP{                        
+            text-align: center;
+        }
+        /*Fin de titulo*/
+
+        /*Inicio de productos*/
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .productos {
+            background-color: rgba(255, 255, 255, 0.973);
+            margin-bottom: 50px;
+            text-align: center;
+            padding: 20px;
+            margin: 5px;
+            width: 20%;
+        }
+
+        .imagenP img{
+            width: 100%; 
+        }
+
+        @media screen and (min-width:767px) and (max-width: 770px) {
+            .contenedor {
+                flex-direction: column;
+            }
+        }
+
+        /*Fin de productos*/
+    </style>
+</body>
+
+</html>

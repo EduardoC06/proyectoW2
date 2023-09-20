@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="EstiloP\estilosSub.css">
+    <link rel="icon" href="imagenes/log.png" type="image/x-icon">
+    <title>Contactenos</title>
+</head>
+
+<body>
+    <div class="menuFi">
+        <div class="logo">
+            <a href="#">CAP Brewery</a>
+        </div>
+
+        <nav class="enlaces">
+            <a href="Inndex.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="productos.html">Productos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contactenos.html">Contactenos</a>
+        </nav>
+    </div>
+
+    <form class="formulario">
+        <label>Nombre</label>
+        <input type="text" name="nom">
+        <label>Apellido</label>
+        <input type="text" name="apel">
+        <label>DNI</label>
+        <input type="text" name="dni">
+        <label>Correo</label>
+        <input type="text" name="corr">
+        <label>Num celular</label>
+        <input type="text" name="numC">
+        <label>Estado civil</label>
+        <input type="radio" name="Estado" value="EstadoC">Casado
+        <input type="radio" name="Estado" value="EstadoC">Soltero
+        <br>
+        <label> Tipo de mensaje:</label> <br>
+        <input type="radio" name="Tmensaje"> Consulta
+        <input type="radio" name="Tmensaje"> Solicitud
+        <input type="radio" name="Tmensaje"> Reclamo <br>
+        <label>Comentario</label>
+        <textarea name="Comentario:"></textarea>
+        <input type="reset" name="Limpiar" value="Limpiar">
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+
+</body>
+<style>
+    /*
+    .general{
+        margin: auto;
+        margin-top: 20px;
+        width: 95vw;
+        height: 800px;
+        background-color: red;
+    }
+    .form{
+        float: right;
+        width: 500px;
+        height: 600px;
+        background-color: rgb(255, 251, 36);
+    }
+
+    .logoEmp{        
+        width: 500px;
+        height: 200px;
+        background-color: rgb(36, 255, 36);
+    }
+
+    .textoCon{
+        width: 500px;
+        height: 200px;
+        background-color: rgb(255, 251, 36);
+    }
+
+    .imagenCon{
+        width: 500px;
+        height: 400px;
+        background-color: rgb(36, 229, 255);
+    }*/
+
+    .formulario {
+        justify-content: center;
+        width: 400px;
+        margin: 10px auto;
+        padding: 30px;
+        padding-right: 40px;
+        background-color: rgb(223, 200, 126);
+        /*background-image: url(imagenes/FondoForm.jpeg);*/    
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    label {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;       
+    }
+
+    input[type="radio"] {   
+    
+        margin-right: 5px;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input[type="reset"],
+    input[type="submit"] {
+        background-color: #e9be7f;
+        color: #000000;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="reset"]:hover,
+    input[type="submit"]:hover {
+        background-color: #ebb079;
+    }
+</style>
+
+</html>

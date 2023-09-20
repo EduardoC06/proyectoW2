@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="EstiloP\estilosSub.css">
+    <link rel="icon" href="imagenes/log.png" type="image/x-icon">
+    <title>Servicios</title>
+</head>
+
+<body>
+    <div class="menuFi">
+        <div class="logo">
+            <a href="#">CAP Brewery</a>
+        </div>
+
+        <nav class="enlaces">
+            <a href="Inndex.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="productos.html">Productos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contactenos.html">Contactenos</a>
+        </nav>
+    </div>
+
+    <header>
+        <h1>Nuestros Servicios</h1>
+    </header>
+    <section class="servicio">
+        <div class="servicio-info">
+            <h2>Entrega a Domicilio</h2>
+            <p>Ofrecemos un servicio de entrega a domicilio rápido y confiable. Tu pedido llegará a tu puerta en poco tiempo.</p>
+        </div>
+        <div class="servicio-imagen">
+            <img src="entrega.png" alt="Entrega a Domicilio">
+        </div>
+    </section>
+    <section class="servicio">
+        <div class="servicio-info">
+            <h2>Atención las 24 Horas</h2>
+            <p>Nuestro equipo está disponible las 24 horas, para atendenterte y brindarte asistencia y soporte para cuando lo necesites.</p>
+        </div>
+        <div class="servicio-imagen">
+            <img src="atencion.png" alt="Atención las 24 Horas">
+        </div>
+    </section>
+</body>
+
+<style>
+    .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos de la sección de servicios */
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.servicio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.servicio-imagen img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .servicio {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .servicio-info {
+        flex: 1;
+        padding: 0 20px;
+        text-align: left;
+    }
+
+    .servicio-imagen {
+        flex: 1;
+        padding: 0 20px;
+        text-align: right;
+    }
+}
+</style>
+</html>
